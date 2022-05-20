@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article_flo.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @article_flo.body %>
+</p>
+
+<%= link_to 'Edit', edit_article_flo_path(@article_flo) %> |
+<%= link_to 'Back', article_flos_path %>

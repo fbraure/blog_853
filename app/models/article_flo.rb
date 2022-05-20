@@ -1,0 +1,2 @@
+class ArticleFlo < ApplicationRecord
+end
